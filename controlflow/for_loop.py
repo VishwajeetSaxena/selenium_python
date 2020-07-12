@@ -47,3 +47,11 @@ for a, b, c in zip(list1, list2, list3):
     print(a)
     print(b)
 
+#Range function
+print('Number using start, end and step information')
+for num in range(0, 100, 5):
+    print('Number', num)
+
+a = range(10)
+print(list(a))
+print(type(a))
