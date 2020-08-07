@@ -1,0 +1,25 @@
+import time
+
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+
+
+class SeleniumDriver():
+
+    def getChromeDriver(self):
+        chrome_driver = webdriver.Chrome(executable_path='C:\\Users\\91897\\workspace_python\\sel_drivers\\chromedriver.exe')
+        return chrome_driver
+
+# base_url = 'https://letskodeit.com/'
+# Get a browser instance
+sel_chrome_driver = SeleniumDriver()
+driver = sel_chrome_driver.getChromeDriver()
+driver.maximize_window()
+
+# driver.get(base_url)
+driver.execute_script("window.location = 'https://learn.letskodeit.com/p/practice';")
+driver.implicitly_wait(3)
+element1 = driver.execute_script("return document.getElementById('name');")
+element1.send_keys("test")
+time.sleep(3)
+driver.quit()
