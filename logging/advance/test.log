@@ -1,0 +1,12 @@
+08/08/2020 08:41:50 PM - LoggerDemoConf - DEBUG - debug message
+08/08/2020 08:41:50 PM - LoggerDemoConf - INFO - info message
+08/08/2020 08:41:50 PM - LoggerDemoConf - ERROR - error message
+08/08/2020 08:41:50 PM - LoggerDemoConf - CRITICAL - critical message
+08/08/2020 08:42:55 PM - LoggerDemoConf - DEBUG - debug message
+08/08/2020 08:42:55 PM - LoggerDemoConf - INFO - info message
+08/08/2020 08:42:55 PM - LoggerDemoConf - ERROR - error message
+08/08/2020 08:42:55 PM - LoggerDemoConf - CRITICAL - critical message
+08/08/2020 08:43:31 PM - LoggerDemoConf - DEBUG - debug message
+08/08/2020 08:43:31 PM - LoggerDemoConf - INFO - info message
+08/08/2020 08:43:31 PM - LoggerDemoConf - ERROR - error message
+08/08/2020 08:43:31 PM - LoggerDemoConf - CRITICAL - critical message
